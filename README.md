@@ -23,19 +23,19 @@ This plugin works with NeoVim v0.5 or later.
 -   [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ``` lua
-use 'fedepujol/move.nvim'
+use 'ethanolx/move.nvim'
 ```
 
 -   [vim-plug](https://github.com/junegunn/vim-plug)
 
 ``` vim
-Plug 'fedepujol/move.nvim'
+Plug 'ethanolx/move.nvim'
 ```
 
 -   [paq](https://github.com/savq/paq-nvim)
 
 ``` lua
-'fedepujol/move.nvim';
+'ethanolx/move.nvim';
 ```
 
 ## Usage
@@ -89,3 +89,10 @@ vim.keymap.set('v', '<A-l>', ':MoveHBlock(1)<CR>', opts)
 There is an original and more feature rich plugin (written in VimScript):
 
 [vim-move](https://github.com/matze/vim-move).
+
+## Credits
+
+I am not the original author of this plugin. This plugin used to be located under the GitHub repository fedepujol/move.nvim.
+However, at the time of this writing, the account fedepujol no longer exists.
+
+I therefore made this repository to preserve the code should I or any other Neovim user wish to use it in the future.
